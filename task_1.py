@@ -27,4 +27,4 @@ def calc_prices(input_price_with_nds, proc_nds):
 # Пример использования
 if __name__ == "__main__":
     prices_1 = calc_prices(1.81, 20)
-    print(f"CorrectedPriceWithNDS: {prices_1[0]}, CorrectedPriceWithoutNDS: {prices_1[1]}")
+    print(f"CorrectedPriceWithNDS: {prices_1[0]},  CorrectedPriceWithoutNDS: {prices_1[1]}")

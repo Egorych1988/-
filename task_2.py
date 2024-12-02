@@ -2,7 +2,6 @@ from task_1 import calc_prices, check_round
 import tkinter as tk
 from tkinter import messagebox
 
-
 def is_number(num):
     return str(num).replace(".", "", 1).isdigit()
 
